@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>PractiseScripts</groupId>
+  <artifactId>Ecomerce_PlacingOrder_EndToEnd</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>PlacingOrder_EndToEnd</name>
+  <dependencies>
+  <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.24.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>compile</scope>
+</dependency>
+
+
+    	<dependency>
+    		<groupId>SeleniumScript</groupId>
+    		<artifactId>FirstScript</artifactId>
+    		<version>0.0.1-SNAPSHOT</version>
+    	</dependency>
+    	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+
+
+    	  </dependencies>
+
+</project>
