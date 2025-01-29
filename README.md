@@ -1,7 +1,8 @@
 # SeleniumScriptWith_TestNGFramework
 
 This Selenium Script is written using JAVA language.
-If UserID , Password and Product name is given, It will login to the Ecommerce application and place order for the given product.
+It Automates the Login and Place order flow of an Ecommerce application.
+If UserID , Password and Product name is given, It will login to the application and place order for the given product.
 
 I have used maven Project to manage all dependencies and used testNg as framework. 
 Along with testNg framework I have used Data Driven Approach - TestNg @DataProvider annotation so that we can run our tests multiple times with different Data.
