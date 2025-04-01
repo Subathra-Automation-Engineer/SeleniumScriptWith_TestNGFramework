@@ -1,13 +1,13 @@
-🛒# E-commerce Website Testing Project
+# 🛒 E-commerce Website Testing Project
 
-📜**Project Description**
+## 📜Project Description
 
 This Selenium Script is written using JAVA language.In this script, I have automated the Login Functionality and Order Placing functionality of an Ecommerce Application.
 If UserID , Password and Product name is given, It will login to the Ecommerce application, place order for the given product and check the order history to confirm the placed order. 
 
-🚀 **Key Highlights**
+## 🚀 **Key Highlights**
 
-**Framework Design:**
+### **Framework Design:**
 
 Integrated Maven for build management and dependency handling.
 
@@ -15,15 +15,15 @@ Followed the Page Object Model (POM) design pattern for modularity and maintaina
 
 Also used testNG as framework for easy maintanance of the script.
 
-**Testing Approach:**
+### **Testing Approach:**
 
 Implemented Data-Driven Testing using JSON files for dynamic and reusable test data.
 
-**Reporting and Logging:**
+### **Reporting and Logging:**
 
 Generated detailed test execution reports using TestNG Listeners and Extent Reports.
 
-**🛠️ Tools and Technologies**
+## **🛠️ Tools and Technologies**
 
 Programming Language: Java
 
@@ -39,7 +39,7 @@ Data Handling: Data Provider (JSON File)
 
 Source Control: GitHub
 
-**Framework Explanation**
+## **Framework Explanation**
 
 ***Folder 1 (src/test/java)**
 
