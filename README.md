@@ -10,7 +10,9 @@ If UserID , Password and Product name is given, It will login to the Ecommerce a
 **Framework Design:**
 
 Integrated Maven for build management and dependency handling.
+
 Followed the Page Object Model (POM) design pattern for modularity and maintainability.
+
 Also used testNG as framework for easy maintanance of the script.
 
 **Testing Approach:**
@@ -24,12 +26,17 @@ Generated detailed test execution reports using TestNG Listeners and Extent Repo
 **🛠️ Tools and Technologies**
 
 Programming Language: Java
+
 Automation Tool: Selenium WebDriver
+
 Test Framework: TestNG
+
 Build Management: Maven
+
 Reporting: Extent Reports, TestNG Listeners
-Data Handling: Apache POI (for Excel)
-Behavior-Driven Development (BDD): Cucumber
+
+Data Handling: Data Provider (JSON File)
+
 Source Control: GitHub
 
 **Framework Explanation**
