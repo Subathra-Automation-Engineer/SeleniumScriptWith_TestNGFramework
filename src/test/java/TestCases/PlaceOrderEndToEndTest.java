@@ -1,6 +1,8 @@
 package TestCases;
 
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -16,7 +18,8 @@ import PageObjects.SubmitOrder;
 public class PlaceOrderEndToEndTest extends BaseTest{
 	
 	//String ProductName= "ADIDAS ORIGINAL";	
-	@Test(dataProvider="getDataUsingHashMap")
+	@Test(dataProvider="getDataUsingJson")
+	//@Test(dataProvider="getDataUsingJson", groups= {"DataProvider"})
 	public void PlaceOrder(HashMap <String,String> input) throws InterruptedException 
 	
 	{
@@ -40,7 +43,7 @@ public class PlaceOrderEndToEndTest extends BaseTest{
 	
 	}
 	
-	@Test(dependsOnMethods="PlaceOrder",dataProvider="getDataUsingHashMap")
+	@Test(dependsOnMethods="PlaceOrder",dataProvider="getDataUsingJson")
 	public void OrderHistoryTest(HashMap <String,String> input)
 	
 	{
@@ -65,7 +68,7 @@ public class PlaceOrderEndToEndTest extends BaseTest{
 		
 	} */
 	
-	@DataProvider	
+	/*@DataProvider	
 	public Object[][] getDataUsingHashMap()
 	
 	{
@@ -73,17 +76,31 @@ public class PlaceOrderEndToEndTest extends BaseTest{
 		
 		map.put("Email", "subathra.test@gmail.com");
 		map.put("Password", "Testpassword*3");
-		map.put("ProductName", "ADIDAS ORIGINAL");
+		map.put("ProductName", "ZARA COAT 3");
 		
 		HashMap <String,String> map1 = new HashMap <String,String>() ;
 		
 		map1.put("Email", "mithu.test@gmail.com");
 		map1.put("Password", "Testpassword*3");
-		map1.put("ProductName", "ADIDAS ORIGINAL");
+		map1.put("ProductName", "ZARA COAT 3");
 		
 		return new Object[][] {{map},{map1}};
 		
+	}*/
+	
+	
+	
+	@DataProvider
+	public Object[][] getDataUsingJson() throws IOException
+	
+	{
+		
+		//List<HashMap<String,String>> data =  GetjsontoHashmap(System.getProperty("user.dir")+"//src//main//java//TestData//TestData_ToPlaceOrder.json");
+		
+		List<HashMap<String,String>> data =  GetjsontoHashmap(System.getProperty("user.dir")+"//src//test//resources//TestData//TestData_ToPlaceOrder.json");
+		return new Object [][]  {{data.get(0)},{data.get(1)}};
 	}
+	
 
 
 }

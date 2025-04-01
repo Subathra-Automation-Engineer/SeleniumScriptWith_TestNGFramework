@@ -1,117 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-12T09:34:28 GMT" name="Suite" finished-at="2025-01-12T09:35:13 GMT" duration-ms="45231">
+  <suite started-at="2025-03-28T12:20:20 GMT" name="Suite" finished-at="2025-03-28T12:21:45 GMT" duration-ms="84597">
     <groups>
     </groups>
-    <test started-at="2025-01-12T09:34:28 GMT" name="ErrorValidation" finished-at="2025-01-12T09:34:41 GMT" duration-ms="12404">
-      <class name="TestCases.ErrorValidationTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.ErrorValidationTest@663c9e7a]" started-at="2025-01-12T09:34:28 GMT" name="LaunchApplication" finished-at="2025-01-12T09:34:34 GMT" duration-ms="5980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="ErrorValidationEmail()[pri:0, instance:TestCases.ErrorValidationTest@663c9e7a]" started-at="2025-01-12T09:34:34 GMT" name="ErrorValidationEmail" finished-at="2025-01-12T09:34:35 GMT" duration-ms="630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorValidationEmail -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.ErrorValidationTest@663c9e7a]" started-at="2025-01-12T09:34:35 GMT" name="CloseBrowser" finished-at="2025-01-12T09:34:35 GMT" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.ErrorValidationTest@663c9e7a]" started-at="2025-01-12T09:34:35 GMT" name="LaunchApplication" finished-at="2025-01-12T09:34:40 GMT" duration-ms="4843" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="ErrorValidationPassword()[pri:0, instance:TestCases.ErrorValidationTest@663c9e7a]" started-at="2025-01-12T09:34:40 GMT" name="ErrorValidationPassword" finished-at="2025-01-12T09:34:40 GMT" duration-ms="744" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ErrorValidationPassword -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.ErrorValidationTest@663c9e7a]" started-at="2025-01-12T09:34:40 GMT" name="CloseBrowser" finished-at="2025-01-12T09:34:41 GMT" duration-ms="78" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- TestCases.ErrorValidationTest -->
-    </test> <!-- ErrorValidation -->
-    <test started-at="2025-01-12T09:34:41 GMT" name="PlaceOrder" finished-at="2025-01-12T09:35:13 GMT" duration-ms="32739">
+    <test started-at="2025-03-28T12:20:20 GMT" name="PlaceOrder" finished-at="2025-03-28T12:21:19 GMT" duration-ms="59047">
       <class name="TestCases.PlaceOrderEndToEndTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:34:41 GMT" name="LaunchApplication" finished-at="2025-01-12T09:34:45 GMT" duration-ms="4577" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:20:20 GMT" name="LaunchApplication" finished-at="2025-03-28T12:20:28 GMT" duration-ms="7572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="PlaceOrder(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:34:45 GMT" name="PlaceOrder" data-provider="getDataUsingHashMap" finished-at="2025-01-12T09:34:51 GMT" duration-ms="5460" status="PASS">
+        <test-method signature="PlaceOrder(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:20:28 GMT" name="PlaceOrder" data-provider="getDataUsingJson" finished-at="2025-03-28T12:20:37 GMT" duration-ms="8671" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Email=subathra.test@gmail.com, ProductName=ADIDAS ORIGINAL, Password=Testpassword*3}]]>
+                <![CDATA[{Email=subathra.test@gmail.com, ProductName=ZARA COAT 3, Password=Testpassword*3}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PlaceOrder -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:34:51 GMT" name="CloseBrowser" finished-at="2025-01-12T09:34:51 GMT" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:20:37 GMT" name="CloseBrowser" finished-at="2025-03-28T12:20:37 GMT" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:34:51 GMT" name="LaunchApplication" finished-at="2025-01-12T09:34:56 GMT" duration-ms="5137" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:20:37 GMT" name="LaunchApplication" finished-at="2025-03-28T12:20:44 GMT" duration-ms="7473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="PlaceOrder(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:34:56 GMT" name="PlaceOrder" data-provider="getDataUsingHashMap" finished-at="2025-01-12T09:35:01 GMT" duration-ms="5379" status="PASS">
+        <test-method signature="PlaceOrder(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:20:44 GMT" name="PlaceOrder" data-provider="getDataUsingJson" finished-at="2025-03-28T12:20:54 GMT" duration-ms="9784" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Email=mithu.test@gmail.com, ProductName=ADIDAS ORIGINAL, Password=Testpassword*3}]]>
+                <![CDATA[{Email=mithu.test@gmail.com, ProductName=ZARA COAT 3, Password=Testpassword*3}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PlaceOrder -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:35:01 GMT" name="CloseBrowser" finished-at="2025-01-12T09:35:01 GMT" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:20:54 GMT" name="CloseBrowser" finished-at="2025-03-28T12:20:54 GMT" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:35:01 GMT" name="LaunchApplication" finished-at="2025-01-12T09:35:06 GMT" duration-ms="4975" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:20:54 GMT" name="LaunchApplication" finished-at="2025-03-28T12:21:02 GMT" duration-ms="7451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:35:06 GMT" name="OrderHistoryTest" data-provider="getDataUsingHashMap" finished-at="2025-01-12T09:35:07 GMT" depends-on-methods="TestCases.PlaceOrderEndToEndTest.PlaceOrder" duration-ms="1089" status="PASS">
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:21:02 GMT" name="OrderHistoryTest" data-provider="getDataUsingJson" finished-at="2025-03-28T12:21:07 GMT" depends-on-methods="TestCases.PlaceOrderEndToEndTest.PlaceOrder" duration-ms="4957" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Email=subathra.test@gmail.com, ProductName=ADIDAS ORIGINAL, Password=Testpassword*3}]]>
+                <![CDATA[{Email=subathra.test@gmail.com, ProductName=ZARA COAT 3, Password=Testpassword*3}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:35:07 GMT" name="CloseBrowser" finished-at="2025-01-12T09:35:08 GMT" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:21:07 GMT" name="CloseBrowser" finished-at="2025-03-28T12:21:07 GMT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:35:08 GMT" name="LaunchApplication" finished-at="2025-01-12T09:35:12 GMT" duration-ms="4811" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:21:07 GMT" name="LaunchApplication" finished-at="2025-03-28T12:21:14 GMT" duration-ms="7433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:35:12 GMT" name="OrderHistoryTest" data-provider="getDataUsingHashMap" finished-at="2025-01-12T09:35:13 GMT" depends-on-methods="TestCases.PlaceOrderEndToEndTest.PlaceOrder" duration-ms="1016" status="PASS">
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:21:14 GMT" name="OrderHistoryTest" data-provider="getDataUsingJson" finished-at="2025-03-28T12:21:19 GMT" depends-on-methods="TestCases.PlaceOrderEndToEndTest.PlaceOrder" duration-ms="5003" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Email=mithu.test@gmail.com, ProductName=ADIDAS ORIGINAL, Password=Testpassword*3}]]>
+                <![CDATA[{Email=mithu.test@gmail.com, ProductName=ZARA COAT 3, Password=Testpassword*3}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@431cd9b2]" started-at="2025-01-12T09:35:13 GMT" name="CloseBrowser" finished-at="2025-01-12T09:35:13 GMT" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.PlaceOrderEndToEndTest@6d1ef78d]" started-at="2025-03-28T12:21:19 GMT" name="CloseBrowser" finished-at="2025-03-28T12:21:19 GMT" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- TestCases.PlaceOrderEndToEndTest -->
     </test> <!-- PlaceOrder -->
+    <test started-at="2025-03-28T12:21:20 GMT" name="ErrorValidation" finished-at="2025-03-28T12:21:45 GMT" duration-ms="24879">
+      <class name="TestCases.ErrorValidationTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.ErrorValidationTest@32193bea]" started-at="2025-03-28T12:21:20 GMT" name="LaunchApplication" finished-at="2025-03-28T12:21:27 GMT" duration-ms="7422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ErrorValidationEmail()[pri:0, instance:TestCases.ErrorValidationTest@32193bea]" started-at="2025-03-28T12:21:27 GMT" name="ErrorValidationEmail" finished-at="2025-03-28T12:21:32 GMT" duration-ms="4755" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password1.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password1.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at TestCases.ErrorValidationTest.ErrorValidationEmail(ErrorValidationTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidationEmail -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.ErrorValidationTest@32193bea]" started-at="2025-03-28T12:21:32 GMT" name="CloseBrowser" finished-at="2025-03-28T12:21:32 GMT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:TestCases.ErrorValidationTest@32193bea]" started-at="2025-03-28T12:21:32 GMT" name="LaunchApplication" finished-at="2025-03-28T12:21:40 GMT" duration-ms="7399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ErrorValidationPassword()[pri:0, instance:TestCases.ErrorValidationTest@32193bea]" started-at="2025-03-28T12:21:40 GMT" name="ErrorValidationPassword" finished-at="2025-03-28T12:21:45 GMT" duration-ms="4845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidationPassword -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.ErrorValidationTest@32193bea]" started-at="2025-03-28T12:21:45 GMT" name="CloseBrowser" finished-at="2025-03-28T12:21:45 GMT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestCases.ErrorValidationTest -->
+    </test> <!-- ErrorValidation -->
   </suite> <!-- Suite -->
 </testng-results>

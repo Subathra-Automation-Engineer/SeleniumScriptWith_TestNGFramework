@@ -1,5 +1,6 @@
 
 import java.time.Duration;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -10,7 +11,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+
 public class StandaloneScript {
+	
+	 
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -44,7 +48,7 @@ public class StandaloneScript {
 				//Select the webelement of required product from list
 				
 				WebElement selectedProduct = products.stream().filter(s->s.findElement(By.xpath("//div/h5/b"))
-						.getText().equals("ADIDAS ORIGINAL")).findFirst().orElse(null);
+						.getText().equals("ZARA COAT 3")).findFirst().orElse(null);
 				
 						
 				//Click Add to cart
@@ -108,6 +112,9 @@ public class StandaloneScript {
 				//Submit the order //action__submit
 			
 				driver.findElement(By.className("action__submit")).click();
+				
+				
+				
 
 		
 	}

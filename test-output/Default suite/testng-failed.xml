@@ -8,7 +8,7 @@
           <include name="LaunchApplication"/>
           <include name="CloseBrowser"/>
           <include name="OrderHistoryTest"/>
-          <include name="PlaceOrder" invocation-numbers="0"/>
+          <include name="PlaceOrder" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- TestCases.PlaceOrderEndToEndTest -->
     </classes>
