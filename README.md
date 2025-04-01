@@ -10,12 +10,14 @@ If UserID , Password and Product name is given, It will login to the Ecommerce a
 **Framework Design:**
 
 Integrated Maven for build management and dependency handling.
+
 Followed the Page Object Model (POM) design pattern for modularity and maintainability.
+
 Also used testNG as framework for easy maintanance of the script.
 
 **Testing Approach:**
 
-Implemented Data-Driven Testing using Excel files for dynamic and reusable test data.
+Implemented Data-Driven Testing using JSON files for dynamic and reusable test data.
 
 **Reporting and Logging:**
 
