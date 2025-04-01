@@ -1,6 +1,7 @@
 **E-commerce Website Testing Project**
 
 **Project Description**
+
 This Selenium Script is written using JAVA language.In this script, I have automated the Login Functionality and Order Placing functionality of an Ecommerce Application.
 If UserID , Password and Product name is given, It will login to the Ecommerce application, place order for the given product and check the order history to confirm the placed order. 
 
